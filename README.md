@@ -52,21 +52,21 @@ Pour l'exercice 1.6, utilisez une boucle **while** pour afficher les nombres **p
 
 ![](images-readme/exercice1_6.png)
 
-## Exercice 1.7
+### Exercice 1.7
 
 Pour l'exercice 1.7, faites la même chose qu'à l'exercice 1.6, mais cette fois-ci avec une boucle **for**.
 
-## Exercice 1.8
+### Exercice 1.8
 
 Utilisez une boucle **while** pour afficher les 20 premiers nombres de la suite de Fibonacci. Cette fois-ci, utilisez une liste ordonnée (*ol*) pour qu'on puisse facilement valider qu'il y a bien 20 nombres.
 
 ![](images-readme/exercice1_8.png)
 
-## Exercice 1.9
+### Exercice 1.9
 
 Faites afficher de nouveau la suite de Fibonacci, mais cette fois-ci en utilisant une boucle **for**.
 
-# Exercice 2
+## Exercice 2
 
 Dans le fichier `exercice2.php`, utilisez une boucle **for** pour afficher 1000 étoiles (caractère `*`) à l'écran. Le CSS lié à la page ajoutera des sauts de ligne automatiquement.
 
@@ -80,10 +80,12 @@ Une fois que tout fonctionne, modifiez votre code à nouveau pour prendre en com
 
 > **NOTE:** L'opérateur modulo (`%`) vous sera peut-être utile pour cette modification!
 
-# Exercice 3
+## Exercice 3
 
 Dans le fichier `exercice3.php`, affichez un paragraphe (balise `p`) à l'intérieur duquel vous afficherez en séquence les caractères `A`, puis `B`, `C` et `D`, en recommençant jusqu'à ce que vous ayez affiché autant de caractères que la valeur du paramètre `nombre` passé dans l'URL. Utilisez une valeur par défaut de 999 si le paramètre est absent.
 
 Voici à quoi doit ressembler l'affichage pour la valeur par défaut (999):
 
 ![](images-readme/exercice3.png)
+
+
