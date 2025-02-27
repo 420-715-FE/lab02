@@ -142,3 +142,13 @@ Dans le fichier `exercice5.php`, copiez vos boucles imbriquées de l'exercice 4.
 ```
 
 Assurez-vous encore une fois que vous avez bien 10 étoiles sur la dernière ligne. Vous devez de nouveau utiliser le paramètre `nombre` s'il est présent.
+
+## Exercice 6
+
+Dans le fichier `exercice6.php`, ajoutez du code qui:
+
+1. Reçoit un paramètre `nombre` passé dans l'URL.
+2. Détermine le nombre de fois que `nombre` peu être multiplié par 2 avant que le résultat dépasse 100 000.
+3. Affiche le résultat à l'écran.
+
+Vous devez valider que le paramètre `nombre` est présent et numérique, et qu'il est situé entre 1 et 50&nbsp;000 inclusivement.
