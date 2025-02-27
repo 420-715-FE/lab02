@@ -12,11 +12,35 @@ Vous devriez voir une page avec le titre « Laboratoire 02 ».
 
 Ouvrez ensuite le dossier `lab02` dans Visual Studio Code. Prenez connaissance des fichiers qu'il comprend. Vous constaterez qu'il y a un fichier `index.php` (page d'accueil du laboratoire) et plusieurs fichiers `exerciceX.php` où `X` est un numéro d'exercice.
 
-## Exercice 0 - Page d'accueil
+## Page d'accueil du laboratoire
 
-Pour commencer, il serait agréable d'avoir une liste de liens vers chaque exercice sur la page d'accueil (`index.php`)
+Pour commencer, il serait agréable d'avoir une liste de liens vers chaque exercice sur la page d'accueil (`index.php`), comme ceci:
 
-TODO
+![](images-readme/index.png)
+
+Ajoutez donc le code suivant dans le fichier `index.php` pour générer la liste de liens:
+
+```php
+    <nav>
+        <ul>
+            <?php
+
+            for ($i = 1; $i <= 9; $i++) {
+            ?>
+                <li>
+                    <a href="exercice<?= $i ?>.php">Exercice <?= $i ?></a>
+                </li>
+            <?php
+            }
+
+            ?>
+        </ul>
+    </nav>
+```
+
+Ce code utilise une boucle `for` qui itère sur les nombres 1 à 9, correspondant aux numéros des 9 exercices. À chaque itération, un nouvel item de liste (`li`) est ajouté, avec un lien vers l'exercice correspondant. Ce lien utilise la variable d'itération de la boucle (`$i`). Cette variable prend la valeur `1` à la première itération, puis la valeur `2` à la deuxième, et ainsi de suite. C'est ce qui permet à chaque fois de générer un lien avec le bon numéro d'exercice.
+
+Assurez-vous de bien comprendre la boucle avant de poursuivre.
 
 ## Exercice 1
 
