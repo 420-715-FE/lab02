@@ -123,3 +123,22 @@ Dans le fichier `exercice4.php`, utilisez des boucles **for** imbriquées pour g
 Comptez le nombre d'étoiles de votre dernière ligne pour vous assurer qu'il y en a bien 10.
 
 Modifiez ensuite votre code pour utiliser un paramètre d'URL `nombre` déterminant le nombre de lignes à afficher (10 par défaut).
+
+## Exercice 5
+
+Dans le fichier `exercice5.php`, copiez vos boucles imbriquées de l'exercice 4. Modifiez-les ensuite pour produire l'affichage suivant:
+
+```
+                  *
+                * *
+              * * *
+            * * * *
+          * * * * *
+        * * * * * *
+      * * * * * * *
+    * * * * * * * *
+  * * * * * * * * *
+* * * * * * * * * * 
+```
+
+Assurez-vous encore une fois que vous avez bien 10 étoiles sur la dernière ligne. Vous devez de nouveau utiliser le paramètre `nombre` s'il est présent.

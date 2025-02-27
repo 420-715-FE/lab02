@@ -9,14 +9,14 @@
         body {
             font-family: monospace;
         }
-    </style>    
+    </style>
 </head>
 <body>
     <nav>
         <a href="index.php">Retour</a>
     </nav>
 
-    <h1>Exercice 4</h1>
+    <h1>Exercice 5</h1>
 
     <?php
 
@@ -33,6 +33,9 @@
     }
 
     for ($i = 1; $i <= $nombre; $i++) {
+        for ($j = 0; $j < $nombre - $i; $j++) {
+            echo '&nbsp; ';
+        }
         for ($j = 0; $j < $i; $j++) {
             echo '* ';
         }
