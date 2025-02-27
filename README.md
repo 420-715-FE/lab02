@@ -152,3 +152,11 @@ Dans le fichier `exercice6.php`, ajoutez du code qui:
 3. Affiche le résultat à l'écran.
 
 Vous devez valider que le paramètre `nombre` est présent et numérique, et qu'il est situé entre 1 et 50&nbsp;000 inclusivement.
+
+![](images-readme/exercice6.png)
+
+## Exercice 7
+
+Dans le fichier `exercice7.php`, ajoutez le code nécessaire pour générer, à l'aide d'une boucle, une liste déroulante dont la première option est `Sélectionnez un nombre`, et dont les options suivantes sont les nombres 1 à 100.
+
+![](images-readme/exercice7.png)
