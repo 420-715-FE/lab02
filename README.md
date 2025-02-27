@@ -92,3 +92,34 @@ Voici à quoi doit ressembler l'affichage pour la valeur par défaut (999):
 
 ## Exercice 4
 
+Il est tout à fait possible d'imbriquer des boucles, c'est-à-dire d'utiliser une boucle à l'intérieur d'une autre boucle. Par exemple:
+
+```php
+$x = 0;
+for ($i = 0; $i < 10; $i++) {
+    for ($j = 0; $j < 5; $j++) {
+        $x++; // équivalent de `$x += 1;`
+    }
+}
+```
+
+Notez que lorsqu'on imbrique des boucles **for**, il est essentiel d'utiliser des noms différents pour la variable d'itération (`$i` et `$j` dans notre exemple).
+
+Dans le fichier `exercice4.php`, utilisez des boucles **for** imbriquées pour générer l'affichage suivant:
+
+```
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * * *
+* * * * * * *
+* * * * * * * *
+* * * * * * * * *
+* * * * * * * * * * 
+```
+
+Comptez le nombre d'étoiles de votre dernière ligne pour vous assurer qu'il y en a bien 10.
+
+Modifiez ensuite votre code pour utiliser un paramètre d'URL `nombre` déterminant le nombre de lignes à afficher (10 par défaut).
