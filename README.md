@@ -6,7 +6,7 @@ Mettre en pratique les notions vues à la deuxième semaine du cours sur les bou
 
 ## Prérequis
 
-Clonez ce dépôt à la racine du répertoire contenant les fichiers Web de votre installation Xampp. Utilisez ensuite un navigateur Web pour accéder à l'adresse `/lab02` sur votre serveur local.
+Clonez ce dépôt à la racine du répertoire contenant les fichiers Web de votre serveur Apache. Utilisez ensuite un navigateur Web pour accéder à l'adresse `/lab02` sur votre serveur local.
 
 Vous devriez voir une page avec le titre « Laboratoire 02 ».
 
