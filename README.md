@@ -77,3 +77,13 @@ Modifiez ensuite votre code pour afficher le nombre d'étoiles correspondant au 
 Une fois que tout fonctionne, modifiez votre code à nouveau pour prendre en compte un deuxième paramètre `saut`. Si ce paramètre est présent, il doit déterminer à quelle fréquence (après combien d'étoiles) votre code doit produite un saut de ligne. Si le paramètre est absent, ne générez pas de saut de ligne. Si le paramètre est présent mais invalide, affichez un message d'erreur. Par exemple, si les paramètres sont `etoiles=100`et `saut=5`, le résultat doit être le suivant:
 
 ![](images-readme/exercice2_2.png)
+
+> **NOTE:** L'opérateur modulo (`%`) vous sera peut-être utile pour cette modification!
+
+# Exercice 3
+
+Dans le fichier `exercice3.php`, affichez un paragraphe (balise `p`) à l'intérieur duquel vous afficherez en séquence les caractères `A`, puis `B`, `C` et `D`, en recommençant jusqu'à ce que vous ayez affiché autant de caractères que la valeur du paramètre `nombre` passé dans l'URL. Utilisez une valeur par défaut de 999 si le paramètre est absent.
+
+Voici à quoi doit ressembler l'affichage pour la valeur par défaut (999):
+
+![](images-readme/exercice3.png)
