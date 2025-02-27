@@ -9,19 +9,6 @@
 <body>
     <nav>
         <a href="index.php">Retour</a>
-    </nav>
-
-    <h1>Exercice 7</h1>
-
-    <select name="nombre">
-        <option value="">Sélectionnez un nombre</option>
-        <?php
-
-        for ($i = 1; $i <= 100; $i++) {
-            echo "<option value=\"$i\">$i</option>";
-        }
-
-        ?>
-    </select>    
+    </nav> 
 </body>
 </html>
