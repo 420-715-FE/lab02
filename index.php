@@ -12,7 +12,7 @@
         <ul>
             <?php
 
-            for ($i = 1; $i <= 10; $i++) {
+            for ($i = 1; $i <= 9; $i++) {
             ?>
                 <li>
                     <a href="exercice<?= $i ?>.php">Exercice <?= $i ?></a>
