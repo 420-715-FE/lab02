@@ -160,3 +160,22 @@ Vous devez valider que le paramètre `nombre` est présent et numérique, et qu'
 Dans le fichier `exercice7.php`, ajoutez le code nécessaire pour générer, à l'aide d'une boucle, une liste déroulante dont la première option est `Sélectionnez un nombre`, et dont les options suivantes sont les nombres 1 à 100.
 
 ![](images-readme/exercice7.png)
+
+## Exercice 8
+
+Dans le fichier `exercice8.php`, ajoutez le code nécessaire, à l'aide d'une boucle et d'une structure conditionnelle, pour:
+
+* Afficher les nombres de 1 à 100
+* Si un nombre est divisible par 3, afficher `Fizz` à la place du nombre
+* Si un nombre est divisible par 5, afficher `Buzz` à la place du nombre
+* Si un nombre est divisible par 3 et 5, afficher `FizzBuzz` à la place du nombre
+
+![](images-readme/exercice8.png)
+
+Vous venez de faire le *FizzBuzz test*, un exercice classique que des employeurs demandent de faire en entrevue d'embauche!
+
+## Exercice 9
+
+Dans le fichier `exercice9.php`, utilisez des boucles **for** imbriquées pour générer un tableau de 10 lignes par 10 colonnes qui affiche les nombres de 0 à 99.
+
+![](images-readme/exercice9.png)
