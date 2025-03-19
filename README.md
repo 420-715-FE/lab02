@@ -172,7 +172,7 @@ Assurez-vous encore une fois que vous avez bien 10 étoiles sur la dernière lig
 Dans le fichier `exercice6.php`, ajoutez du code qui:
 
 1. Reçoit un paramètre `nombre` passé dans l'URL.
-2. Détermine le nombre de fois que `nombre` peu être multiplié par 2 avant que le résultat dépasse 100 000.
+2. Détermine le nombre de fois que `nombre` peut être multiplié par 2 avant que le résultat dépasse 100 000.
 3. Affiche le résultat à l'écran.
 
 Vous devez valider que le paramètre `nombre` est présent et numérique, et qu'il est situé entre 1 et 50&nbsp;000 inclusivement.
