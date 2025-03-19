@@ -98,7 +98,7 @@ Dans le fichier `exercice2.php`, utilisez une boucle **for** pour afficher 1000 
 
 Modifiez ensuite votre code pour afficher le nombre d'étoiles correspondant au paramètre `etoiles` passé par l'URL. Utilisez une valeur par défaut de 1000 si le paramètre est absent. Si le paramètre est présent mais invalide (non numérique), affichez un message d'erreur, puis n'affichez aucune étoile.
 
-Une fois que tout fonctionne, modifiez votre code à nouveau pour prendre en compte un deuxième paramètre `saut`. Si ce paramètre est présent, il doit déterminer à quelle fréquence (après combien d'étoiles) votre code doit produite un saut de ligne. Si le paramètre est absent, ne générez pas de saut de ligne. Si le paramètre est présent mais invalide, affichez un message d'erreur.
+Une fois que tout fonctionne, modifiez votre code à nouveau pour prendre en compte un deuxième paramètre `saut`. Si ce paramètre est présent, il doit déterminer à quelle fréquence (après combien d'étoiles) votre code doit produire un saut de ligne. Si le paramètre est absent, ne générez pas de saut de ligne. Si le paramètre est présent mais invalide, affichez un message d'erreur.
 
 > **NOTE:** Vous aurez besoin d'une structure conditionnelle à l'intérieur de votre boucle de même que de l'opérateur modulo (`%`) pour réaliser cette modification.
 
